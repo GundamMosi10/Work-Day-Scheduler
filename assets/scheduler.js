@@ -3,7 +3,7 @@ console.log("Hello there! General Kenobi");
  
 
 function displayTime() { //this displays the time below the header in the html 
-    var time2 = moment().format('MMMM Do YYYY');
+    var time2 = moment().format('MMMM Do YYYY, h:mm:ss a');
     $('#clock2').html(time2);
     setTimeout(displayTime, 1000);
 }
@@ -37,7 +37,7 @@ $("button").on("click", function(){
     var hour1 = parseInt($(this).parent().attr("data"));
     var userHour1 = $("#first-hour").val();
 
-    localStorage.setItem("hour1", userHour1)
+    localStorage.setItem("hour1", userHour1)//this allows the users input for the first hour to be stored in local storage
 })
 
 $("#first-hour").append(localStorage.getItem("hour1"));//allows me to get the info from the local storage to print in the 
