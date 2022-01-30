@@ -23,7 +23,7 @@
 console.log("Hello there");
 
 function displayTime() {
-    var time2 = moment().format('MMMM Do YYYY, h:mm:ss a');
+    var time2 = moment().format('MMMM Do YYYY');
     $('#clock2').html(time2);
     setTimeout(displayTime, 1000);
 }
