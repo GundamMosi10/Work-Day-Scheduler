@@ -6,6 +6,8 @@ This is a single front page Daily planner using HTML, CSS and JavaScript to make
 To use this app you can load the front facing page from the url below and it will take you to the page in your current web browser.
 
 ## Deployment: 
+[Work-Day-Scheduler Website](https://gundammosi10.github.io/PasswordGenerator2/)
+
 
 ## Contributors:
 Me.
