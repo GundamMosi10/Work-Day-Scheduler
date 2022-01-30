@@ -10,6 +10,5 @@ To use this app you can load the front facing page from the url below and it wil
 
 ![Work-Day-Scheduler Website](./assets/img/Work-Day-SchedulerScreenShot1.jpeg "Work-Day-Scheduler Screen Shot #1")
 
-
 ## Contributors:
 Me.
